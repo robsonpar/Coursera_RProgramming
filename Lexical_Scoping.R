@@ -1,3 +1,11 @@
+#Lexical_Scoping.R
+#1.20.15
+#PaulR
+
+rm(list=ls())
+setwd("C:/Users/PRobson/Documents/GitHub/Coursera_RProgramming")
+getwd()
+
 makeVector <- function(x = numeric()) {
         m <- NULL
         set <- function(y) {
