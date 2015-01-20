@@ -3,7 +3,6 @@
 #PaulR
 
 rm(list=ls())
-setwd("C:/Users/PRobson/Documents/GitHub/Coursera_RProgramming")
 getwd()
 
 makeVector <- function(x = numeric()) {
